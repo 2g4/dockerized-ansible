@@ -1,0 +1,1 @@
+ docker run  -v "${PWD}/inventory:/home/svcansible/inventory:ro"  -v "${PWD}/playbook:/home/svcansible/playbook:ro" -it ansible
